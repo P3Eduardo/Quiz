@@ -54,10 +54,32 @@ else{
 //Task 7
 for (let i = 1;i <= 20; i = 2 * i + 3) {
 
-console.log(3 * 1);
+console.log(3 * i);
 }
-//The Value will still be 3
+
+//The Value will still be 39
+
+//Task 8
+for (let t = 1;t <= 100; t = 1 * t + 1) {
+
+console.log(t+0);
+
+}
+
+//Task 9
+//for (let t = 1;t <= 100; t = 1 * t + 1)
+//{
+    //if ( t=17 || t=43 ) {
+      // console.log(t+1);
+//}
+//else {
+  //  console.log(t+0);
+//}
+//}
 
 
-
+//Task 10
+ for (let t = 100;t >= 1; t = 1 * t - 3) {
+console.log(t+0);
+}
 }
